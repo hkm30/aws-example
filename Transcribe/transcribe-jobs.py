@@ -33,7 +33,7 @@ for key in keys:
     Media={'MediaFileUri': f's3://{bucket_name}/{key}'},
     MediaFormat='wav',
     LanguageCode='en-US',
-    OutputBucketName='source-s3-488184881631',
+    OutputBucketName='source-s3-xxxxxxxxx',
     OutputKey=output_prefix_name 
   )
   #print("Job started!")
