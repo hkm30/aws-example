@@ -6,7 +6,7 @@ from os import listdir
 from os.path import isfile, join
 
 numx = 'num3'
-bucket_name = 'source-s3-488184881631'
+bucket_name = 'source-s3-xxxxxxxxx'
 input_prefix_name = 'test1/'
 output_prefix_name = 'target/' + numx + '/'
 region = 'us-west-2'
