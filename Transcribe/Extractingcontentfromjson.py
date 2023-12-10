@@ -3,7 +3,7 @@ import json
 import os
 
 numx = 'num3'
-bucket_name = 'source-s3-488184881631'
+bucket_name = 'source-s3-xxxxxxxxx'
 prefix_name = 'target/' + numx + '/'
 region = 'us-west-2'
 
