@@ -8,7 +8,7 @@ prefix_name = 'target/' + numx + '/'
 region = 'us-west-2'
 
 s3 = boto3.client('s3', region_name=region)
-with open('/Users/hekangmi/Downloads/transcripts-out.txt', 'w') as f:
+with open('/Users/yyyyyy/Downloads/transcripts-out.txt', 'w') as f:
   for obj in s3.list_objects(Bucket=bucket_name, Delimiter='/', Prefix=prefix_name)['Contents']:
 
     if obj['Key'].endswith('.json'):
